@@ -6,8 +6,8 @@ I am too lazy to turn on the cell phone.
 ### Install
 
 ```
-$ git clone git@github.com:erning/authentication.git
-$ cd authentication
+$ git clone git@github.com:erning/authenticator.git
+$ cd authenticator
 $ virtualenv .virtualenv
 $ ve pip install -r requirements.txt
 ```
