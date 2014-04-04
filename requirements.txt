@@ -1,0 +1,3 @@
+future==0.11.4
+onetimepass==0.2.2
+six==1.6.1
