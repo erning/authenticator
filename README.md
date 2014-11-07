@@ -33,7 +33,7 @@ Secrets.json is a JSON data file in plain text. for example,
 To encrypt secrets.json
 
 ```
-$ gpg -ase -r zhang@erning.com secrets.json
+$ gpg -ase -r zhang@erning.com -r zhang.yining@gmail.com secrets.json
 ```
 
 Remember to delete the original secrets.json file
