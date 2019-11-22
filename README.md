@@ -5,10 +5,8 @@ I am too lazy to turn on the cell phone.
 
 ### Usage
 ```
-gpg -d secrets.json.asc | go run authenticator.go
+$ gpg -d secrets.json.asc | go run authenticator.go
 ```
-
-----
 
 >### Install
 >

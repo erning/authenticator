@@ -40,7 +40,6 @@ func main() {
 				return "\033[34m"
 			}
 		}()
-
 		for _, v := range secrets {
 			va := v.([]interface{})
 			secret, desc := va[1].(string), va[0].(string)
@@ -52,5 +51,4 @@ func main() {
 		}
 		time.Sleep(time.Second)
 	}
-	fmt.Printf("%v\n", secrets)
 }
