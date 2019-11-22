@@ -3,20 +3,27 @@
 Use this script to give me the two-step verification code just in case that
 I am too lazy to turn on the cell phone.
 
-### Install
-
-```
-$ git clone git@github.com:erning/authenticator.git
-$ cd authenticator
-$ virtualenv .virtualenv
-$ ve pip install -r requirements.txt
-```
-
 ### Usage
+```
+gpg -d secrets.json.asc | go run authenticator.go
+```
 
-```
-$ gpg -d secrets.json.asc | ve python authenticator
-```
+----
+
+>### Install
+>
+>```
+>$ git clone git@github.com:erning/authenticator.git
+>$ cd authenticator
+>$ virtualenv .virtualenv
+>$ ve pip install -r requirements.txt
+>```
+>
+>### Usage
+>
+>```
+>$ gpg -d secrets.json.asc | ve python authenticator
+>```
 
 ### secrets.json
 
